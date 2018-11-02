@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>JITAutomation</groupId>
+  <artifactId>JITAutomation</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <!-- UI Layer -->
+  <modules>
+  	<module>JIT_UI_Automation</module>
+  <!-- Api Layer -->  
+  	<module>Api_Automation</module>
+  <!-- Core framework common to both projects -->
+  	<module>JIT_Core_Framework</module>
+  </modules>
+</project>
+
+
